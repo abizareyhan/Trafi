@@ -1,0 +1,16 @@
+{
+    "name": "abizareyhan/trafi",
+    "description": "The Unofficial Trafi API for Laravel",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Muhammad Reyhan Abizar",
+            "email": "abizareyhan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "guzzlehttp/guzzle": "^6.3"
+    }
+}
