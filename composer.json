@@ -9,8 +9,5 @@
             "email": "abizareyhan@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-      "guzzlehttp/guzzle": "^6.3"
-    }
+    "minimum-stability": "dev"
 }
