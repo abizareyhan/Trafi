@@ -32,7 +32,7 @@ class TrafiServiceProvider extends ServiceProvider
     public function register()
     {
       $this->app->singleton('Trafi', function(){
-          $trafi = new Trafi(config('trafi.city'));
+          $trafi = new Trafi(new CurlHTTPClient, config('trafi.city'));
           $trafi->setHttpClient(new Client());
           $trafi->setHttpMessageFactory(new HttpGuzzleMessageFactory());
           return $trafi;

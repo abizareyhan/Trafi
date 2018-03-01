@@ -14,8 +14,11 @@ class Trafi
   private $httpClient;
 
 
-  public function __construct(HTTPClient $httpClient, $city)
+  public function __construct(HTTPClient $httpClient, $city = null)
   {
+      if($city == null){
+        $city = config('trafi.city');
+      }
       $this->httpClient = $httpClient;
       $this->city = $city;
       $this->baseEndpoint = Trafi::BASE_ENDPOINT;
