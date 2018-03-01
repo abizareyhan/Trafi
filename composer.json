@@ -1,6 +1,7 @@
 {
     "name": "abizareyhan/trafi",
     "description": "The Unofficial Trafi API for Laravel",
+    "version" : "0.0.1",
     "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
